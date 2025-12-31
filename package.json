@@ -1,5 +1,5 @@
 {
-  "name": "mern-boiler-pari",
+  "name": "mern-kamo",
   "version": "1.0.0",
   "description": "MERN stack boilerplate generator",
   "type": "commonjs",
@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
 
   "bin": {
-    "mern-boiler-pari": "./index.js"
+    "mern-kamo": "./index.js"
   },
 
   "files": ["index.js"],
