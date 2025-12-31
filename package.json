@@ -1,19 +1,21 @@
 {
   "name": "mern-kamo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "MERN stack boilerplate generator",
   "type": "commonjs",
   "author": "hiren hadiya",
   "license": "Apache-2.0",
-
   "bin": {
     "mern-kamo": "./index.js"
   },
-
-  "files": ["index.js"],
-
-  "keywords": ["mern", "boilerplate", "cli"],
-
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "mern",
+    "boilerplate",
+    "cli"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HirenAhir02/mern-boiler-pari.git"
