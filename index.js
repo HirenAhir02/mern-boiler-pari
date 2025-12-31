@@ -50,7 +50,8 @@ app.use(express.json());
 
 app.get("/", (_, res) => res.send("Backend running 🚀"));
 
-app.listen(process.env.PORT || 5000, () =>
+const PORT = process.env.PORT ;
+app.listen(PORT, () =>
   console.log("Server started")
 );
 `
@@ -58,7 +59,7 @@ app.listen(process.env.PORT || 5000, () =>
 
   fs.writeFileSync(
     path.join(backendPath, ".env"),
-    "PORT='5000'\nMONGO_URI=\nJWT_SECRET=\n"
+    "PORT=3000\nMONGO_URI=\nJWT_SECRET=\n"
   );
 
   ["models", "routes", "controllers"].forEach(d =>
