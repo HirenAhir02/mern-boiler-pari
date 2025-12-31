@@ -58,7 +58,7 @@ app.listen(process.env.PORT || 5000, () =>
 
   fs.writeFileSync(
     path.join(backendPath, ".env"),
-    "PORT=5000\nMONGO_URI=\nJWT_SECRET=\n"
+    "PORT='5000'\nMONGO_URI=\nJWT_SECRET=\n"
   );
 
   ["models", "routes", "controllers"].forEach(d =>
