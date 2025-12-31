@@ -1,0 +1,21 @@
+{
+  "name": "mern-boiler-pari",
+  "version": "1.0.0",
+  "description": "MERN stack boilerplate generator",
+  "type": "commonjs",
+  "author": "hiren hadiya",
+  "license": "Apache-2.0",
+
+  "bin": {
+    "mern-boiler-pari": "./index.js"
+  },
+
+  "files": ["index.js"],
+
+  "keywords": ["mern", "boilerplate", "cli"],
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HirenAhir02/mern-boiler-pari.git"
+  }
+}
